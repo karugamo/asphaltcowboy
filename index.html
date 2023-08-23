@@ -1,6 +1,10 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"
+      name="viewport"
+    />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rye" />
     <link
       rel="stylesheet"
@@ -24,7 +28,7 @@
         flex-direction: column;
         height: 100vh;
         margin: 0 auto;
-        max-width: 720px;
+        max-width: 768px;
         padding: 32px 16px;
       }
       section {
@@ -53,7 +57,7 @@
         font-size: 20px;
       }
       img {
-        max-width: 100%;
+        width: 100%;
       }
       .phone-number {
         font-family: "Rye", serif;
@@ -88,13 +92,13 @@
 
       <section>
         <h3>Videos</h3>
-        <video width="200" height="360" controls>
+        <video width="200" height="360" controls preload="metadata">
           <source src="cowboy1.mp4" type="video/mp4" />
         </video>
-        <video width="200" height="360" controls>
+        <video width="200" height="360" controls preload="metadata">
           <source src="cowboy2.mp4" type="video/mp4" />
         </video>
-        <video width="200" height="360" controls>
+        <video width="200" height="360" controls preload="metadata">
           <source src="cowboy3.mp4" type="video/mp4" />
         </video>
       </section>
